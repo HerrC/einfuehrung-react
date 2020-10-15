@@ -1,0 +1,25 @@
+{
+  "name": "react-state",
+  "version": "1.0.0",
+  "description": "Einführung in React-State",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve --mode development --env development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Christoph Chmela",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.0",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "html-webpack-plugin": "^4.5.0",
+    "webpack": "^5.1.2",
+    "webpack-cli": "^4.0.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
